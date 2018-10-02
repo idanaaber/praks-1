@@ -1,0 +1,111 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+
+/* Koerapildi suurus */
+#body-img{
+	width: 350px;
+	height: auto;
+}
+
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+h1,h2{
+	color:navy;
+}
+
+
+h1 {
+	font-size: 45px;
+	margin-bottom: 25px;
+}
+
+
+h2{
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+
+.main-text {
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+
+.container{
+	width: 1280px;
+	/*top right bottom left*/
+	margin: 25px auto 0 25px;
+}
+
+
+.blog-posts,.other-posts {
+	float: left;
+}
+
+
+.blog-posts{
+	width: 80%;
+	padding-right: 50px;
+	position: relative;
+	
+}
+
+
+.other-posts{
+	width: 20%;
+
+}
+
+	
+.posts-li {
+	list-style: none;
+	margin-top: 15px;
+}
+
+
+/* punkt tähendab classi */
+.author-box img {
+	height: 100px;
+	width: auto;
+	border-radius: 50%;
+	float: left;
+}
+
+
+/* lisab vahejoone */
+.author-box {
+	border-top: 1px solid #808080;
+	padding-top: 20px;
+
+}
+
+
+/* hästaag tähendab id-d */
+#author-name {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	float: left;
+}
+.date{
+	position:absolute;
+	top: 20px;
+	right: 35px;
+}
